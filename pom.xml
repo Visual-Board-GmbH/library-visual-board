@@ -2,7 +2,25 @@
 <project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
   <artifactId>library-visual-board</artifactId>
+  <groupId>ch.visualboard</groupId>
+  <modelVersion>4.0.0</modelVersion>
+  <version>0.1.0-RELEASE</version>
+
+  <properties>
+    <commons-codec.version>1.14</commons-codec.version>
+    <commons-lang3.version>3.9</commons-lang3.version>
+    <java.version>1.8</java.version>
+    <junit-jupiter.version>5.5.2</junit-jupiter.version>
+
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+
+    <mockito-junit-jupiter.version>2.23.0</mockito-junit-jupiter.version>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <spring-boot-starter.version>2.2.0.RELEASE</spring-boot-starter.version>
+  </properties>
 
   <dependencies>
     <dependency>
@@ -15,7 +33,6 @@
       <groupId>commons-codec</groupId>
       <version>${commons-codec.version}</version>
     </dependency>
-
     <dependency>
       <artifactId>junit-jupiter-api</artifactId>
       <groupId>org.junit.jupiter</groupId>
@@ -47,23 +64,5 @@
       <version>${spring-boot-starter.version}</version>
     </dependency>
   </dependencies>
-  <groupId>ch.visualboard</groupId>
-  <modelVersion>4.0.0</modelVersion>
-
-  <properties>
-    <commons-codec.version>1.14</commons-codec.version>
-    <commons-lang3.version>3.9</commons-lang3.version>
-    <java.version>1.8</java.version>
-    <junit-jupiter.version>5.5.2</junit-jupiter.version>
-
-    <maven.compiler.source>1.8</maven.compiler.source>
-    <maven.compiler.target>1.8</maven.compiler.target>
-
-    <mockito-junit-jupiter.version>2.23.0</mockito-junit-jupiter.version>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <spring-boot-starter.version>2.2.0.RELEASE</spring-boot-starter.version>
-  </properties>
-
-  <version>0.1.1-RELEASE</version>
 
 </project>
