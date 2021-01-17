@@ -1,1 +1,1 @@
-# library-led-rgb-matrix
+# library-visual-board
