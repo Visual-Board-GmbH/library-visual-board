@@ -6,7 +6,7 @@
   <artifactId>library-visual-board</artifactId>
   <groupId>ch.visualboard</groupId>
   <modelVersion>4.0.0</modelVersion>
-  <version>0.1.0-RELEASE</version>
+  <version>1.0.0-RELEASE</version>
 
   <properties>
     <commons-codec.version>1.14</commons-codec.version>
